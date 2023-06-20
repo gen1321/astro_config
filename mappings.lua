@@ -17,12 +17,17 @@ return {
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
+    ["<leader>ws"] = {"<cmd>split<cr>"},
+    ["<leader>wv"] = {"<cmd>vsplit<cr>"},
+    ["<leader>wd"] = {"<cmd>q<cr>"},
+    ["<leader>fs"] = {"<cmd>w<cr>"},
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>w"] = { name = "Windows"},
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
   t = {
     -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
+    ["<C-o>"] = {"<C-\\><C-n>"},
   },
 }
