@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.project.project-nvim"},
   { import = "astrocommunity.project.nvim-spectre"},
   { import = "astrocommunity.test.neotest"}, 
-  { import = "astrocommunity.bars-and-lines.lualine-nvim" }
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.pack.lua" }
 }
